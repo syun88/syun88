@@ -20,6 +20,7 @@ Hello! I'm syun88, a Computer Science student specializing in Artificial Intelli
 - **Robotics**: ROS2, Gazebo, Behavior Trees,SLAM,Navigation 
 - **Development Tools**: Docker, Git, Firebase , GCP, AWS
 - **Game Engines**: Unity, SwiftUI  
+- **Certification**: JETSON AI SPECIALIST  
 
 ---
 
