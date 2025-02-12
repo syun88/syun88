@@ -1,8 +1,6 @@
 # 👋 Welcome to syun88's GitHub Profile | syun88のGitHubプロフィールへようこそ！
 
-Hello! I'm syun88, a Computer Science student specializing in Artificial Intelligence at Tokyo University of Technology (TUT). I recently started working part-time at a robotics startup, focusing on innovative projects related to robotics and AI. Additionally, I work on game development as a personal project. I’m always curious and passionate about learning new technologies to solve real-world problems. Feel free to explore my repositories or connect with me!
-
-こんにちは！syun88です。東京工科大学（TUT）で人工知能を専攻しているコンピュータサイエンスの学生です。最近、ロボット関連のベンチャー企業でアルバイトを始め、ロボット工学やAIに関連した革新的なプロジェクトに取り組んでいます。また、ゲーム開発は個人的なプロジェクトとして進めています。新しい技術を学び、現実の課題を解決することに情熱を注いでいます。ぜひリポジトリをチェックしたり、気軽に交流してください！
+こんにちは！syun88です。東京工科大学（TUT）で人工知能を専攻しているコンピュータサイエンスの学生です。ゲーム開発プロジェクトを進めています。新しい技術を学び、現実の課題を解決することに情熱を注いでいます。ぜひリポジトリをチェックしたり、X(Twitter)でも気軽に交流かDMしてください！
 
 --- 
 
