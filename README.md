@@ -31,10 +31,6 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 
 ---
 
-これをGitHubプロフィールの `README.md` に追加すれば、認定証のリンクを直接表示できます！  
-また、もし `img` タグを使ってPDFのプレビュー画像を表示したい場合は、認定証のスクリーンショットを `.png` か `.jpg` に変換して `img` タグで埋め込む方法もあります。
----
-
 ## 🌐 Find me on | 他のプラットフォーム
 - 🐙 **GitHub**: [syun88](https://github.com/syun88)  
 - 📝 **Qiita**: [syun88](https://qiita.com/syun88)  
