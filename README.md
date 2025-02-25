@@ -34,7 +34,7 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 ## 🌐 Find me on | 他のプラットフォーム
 - 🐙 **GitHub**: [syun88](https://github.com/syun88)  
 - 📝 **Qiita**: [syun88](https://qiita.com/syun88)  
-- 🐦 **X (Twitter)**: [@yourhandle](https://twitter.com/yourhandle)  
+- 🐦 **X (Twitter)**: [@syun88AI](https://x.com/syun88AI)  
 
 ---
 
