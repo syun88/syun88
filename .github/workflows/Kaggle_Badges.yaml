@@ -10,7 +10,7 @@ on:
 
 jobs:
   create-badges:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
       PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"  # 追加フラグを指定
     steps:
