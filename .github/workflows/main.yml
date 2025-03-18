@@ -10,7 +10,7 @@ on:
 
 jobs:
   create-badges:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # Ubuntu 22.04を明示的に指定
 
     steps:
       - name: Checkout repository
@@ -31,6 +31,12 @@ jobs:
           sudo apt update
           sudo apt install -y google-chrome-stable
 
+      - name: Clone Kaggle Badges Action
+        run: |
+          git clone https://github.com/spider-man-tm/kaggle-badges.git kaggle-badges-action
+          cd kaggle-badges-action
+          npm install
+
       - name: Run Kaggle Badges Action (With No-Sandbox)
         env:
           PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
@@ -38,7 +44,10 @@ jobs:
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &
           export DISPLAY=:99
-          npx spider-man-tm/kaggle-badges@v1.2.2 --user_name chenjungming --puppeteer-args "--no-sandbox --disable-setuid-sandbox"
+          export PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require("puppeteer").executablePath())')
+          export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
+          cd kaggle-badges-action
+          node index.js --user_name chenjungming --no-sandbox --disable-setuid-sandbox
 
       - name: Commit and Push SVG files
         run: |
