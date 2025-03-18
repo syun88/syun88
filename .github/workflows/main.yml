@@ -1,16 +1,17 @@
-name: Main
+name: Kaggle Badges and GitHub Metrics
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: "11 11 1 * *" # 毎月1日の 11:11 AM
+    - cron: "11 11 1 * *" # 1st of every month at 11:11 AM
+    - cron: "0 0 * * *"   # Every 24 hours
   workflow_dispatch:
 
 jobs:
   create-badges:
-    runs-on: ubuntu-22.04 # Ubuntu 22.04を明示的に指定
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -21,33 +22,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Puppeteer and Dependencies
-        run: |
-          npm install puppeteer
-          echo "PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require(\"puppeteer\").executablePath())')" >> $GITHUB_ENV
+      - name: Install Puppeteer browser
+        run: npx puppeteer browsers install chrome@126.0.6478.63
 
-      - name: Install Chrome Browser
-        run: |
-          sudo apt update
-          sudo apt install -y google-chrome-stable
-
-      - name: Clone Kaggle Badges Action
-        run: |
-          git clone https://github.com/spider-man-tm/kaggle-badges.git kaggle-badges-action
-          cd kaggle-badges-action
-          npm install
-
-      - name: Run Kaggle Badges Action (With No-Sandbox)
-        env:
-          PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
-        run: |
-          Xvfb :99 -screen 0 1920x1080x24 &
-          export DISPLAY=:99
-          export PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require("puppeteer").executablePath())')
-          export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
-          cd kaggle-badges-action
-          node index.js --user_name chenjungming --no-sandbox --disable-setuid-sandbox
+      - name: Use Kaggle Badges Action
+        uses: spider-man-tm/kaggle-badges@v1.2.2
+        with:
+          user_name: chenjungming
 
       - name: Commit and Push SVG files
         run: |
@@ -56,3 +37,41 @@ jobs:
           git add ./kaggle-badges/* ./kaggle-plates/*
           git commit -m "Add generated SVG files" || echo "No changes to commit"
           git push
+
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Default metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output/metrics.base.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: header, activity, community, repositories, metadata
+
+      - name: Most used (with details)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output/details.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: ""
+          repositories_skipped: chatbot-ui, gitHub-readme-stats-clone, PL0-compiler
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            tex, less, qmake, lex, gnuplot
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+
+      - name: Compact display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: output/metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
