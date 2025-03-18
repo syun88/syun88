@@ -29,6 +29,28 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 ### **📜 Certifications | 資格・認定**
 - 🏅 **[NVIDIA Jetson AI Specialist](https://github.com/syun88/syun88/blob/main/NVIDIA-Jetson-AI-Specialist-Certificate-Jung-Ming-Chen.pdf)**  
 
+
+## 🏆 Kaggle Achievements | Kaggleでの実績
+- 🥇 **Competition Expert**  
+- 📊 **Notebook Master**  
+- 📈 **Dataset Contributor**  
+- 🔍 **Active Competitor**
+
+<p align="center">
+  <a href="https://www.kaggle.com/chenjungming">
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/competition" alt="Kaggle Competition Badge" />
+  </a>
+  <a href="https://www.kaggle.com/chenjungming">
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/notebook" alt="Kaggle Notebook Badge" />
+  </a>
+  <a href="https://www.kaggle.com/chenjungming">
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/dataset" alt="Kaggle Dataset Badge" />
+  </a>
+  <a href="https://www.kaggle.com/chenjungming">
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/discussion" alt="Kaggle Discussion Badge" />
+  </a>
+</p>
+
 ---
 
 ## 🌐 Find me on | 他のプラットフォーム
