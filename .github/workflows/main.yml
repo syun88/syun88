@@ -5,8 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "11 11 1 * *" # 1st of every month at 11:11 AM
-    - cron: "0 0 * * *"   # Every 24 hours
+    - cron: "11 11 1 * *" # 11:11 AM on the 1st of every month
   workflow_dispatch:
 
 jobs:
@@ -22,21 +21,22 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Puppeteer manually
+      - name: Install Dependencies (Puppeteer)
         run: |
-          npm install -g puppeteer
-          echo "PUPPETEER_EXECUTABLE_PATH=$(which chromium-browser)" >> $GITHUB_ENV
+          npm install puppeteer
+          echo "PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require(\"puppeteer\").executablePath())')" >> $GITHUB_ENV
 
-      - name: Use Kaggle Badges Action (With No-Sandbox Fix)
+      - name: Install Puppeteer browser
+        run: npx puppeteer browsers install chrome@126.0.6478.63
+
+      - name: Use Kaggle Badges Action
         env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
-          PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
-        run: |
-          npx puppeteer browsers install chrome
-          node -e "console.log('Checking Puppeteer Version:', require('puppeteer').version)"
-          Xvfb :99 -screen 0 1920x1080x24 &
-          export DISPLAY=:99
-          npx spider-man-tm/kaggle-badges@v1.2.2 --user_name chenjungming
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
+        uses: spider-man-tm/kaggle-badges@v1.2.2
+        with:
+          user_name: chenjungming
+          # example of using GitHub Secrets
+          # user_name: ${{ secrets.KAGGLE_USERNAME }}
 
       - name: Commit and Push SVG files
         run: |
@@ -45,41 +45,3 @@ jobs:
           git add ./kaggle-badges/* ./kaggle-plates/*
           git commit -m "Add generated SVG files" || echo "No changes to commit"
           git push
-
-  github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Default metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.base.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-
-      - name: Most used (with details)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/details.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          repositories_skipped: chatbot-ui, gitHub-readme-stats-clone, PL0-compiler
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            tex, less, qmake, lex, gnuplot
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_followup: yes
-          plugin_followup_indepth: yes
-
-      - name: Compact display
-        uses: lowlighter/metrics@latest
-        with:
-          filename: output/metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
