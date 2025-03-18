@@ -29,12 +29,9 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 ### **📜 Certifications | 資格・認定**
 - 🏅 **[NVIDIA Jetson AI Specialist](https://github.com/syun88/syun88/blob/main/NVIDIA-Jetson-AI-Specialist-Certificate-Jung-Ming-Chen.pdf)**  
 
-
-
-
-
-
 ## 🏆 Kaggle Achievements | Kaggleでの実績
+- My Kaggke URL | Kaggleでのリンク https://www.kaggle.com/chenjungming
+
 <img src="./kaggle-badges/CompetitionsRank/plastic-black.svg" />
 <img src="./kaggle-plates/Competitions/white.svg" />
 
