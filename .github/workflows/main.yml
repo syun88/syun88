@@ -30,6 +30,12 @@ jobs:
         run: |
           npx puppeteer browsers install chrome@126.0.6478.63
 
+      - name: Manually Clone Kaggle Badges Action
+        run: |
+          git clone https://github.com/spider-man-tm/kaggle-badges.git kaggle-badges-action
+          cd kaggle-badges-action
+          npm install
+
       - name: Use Kaggle Badges Action (With No-Sandbox)
         env:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
@@ -39,7 +45,7 @@ jobs:
           export DISPLAY=:99
           export PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require("puppeteer").executablePath())')
           export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
-          npx spider-man-tm/kaggle-badges@v1.2.2 --user_name chenjungming --no-sandbox --disable-setuid-sandbox
+          node kaggle-badges-action/index.js --user_name chenjungming --no-sandbox --disable-setuid-sandbox
 
       - name: Commit and Push SVG files
         run: |
