@@ -21,31 +21,24 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Dependencies (Puppeteer)
+      - name: Install Puppeteer and Dependencies
         run: |
           npm install puppeteer
           echo "PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require(\"puppeteer\").executablePath())')" >> $GITHUB_ENV
 
-      - name: Install Puppeteer browser
+      - name: Install Chrome Browser
         run: |
-          npx puppeteer browsers install chrome@126.0.6478.63
+          sudo apt update
+          sudo apt install -y google-chrome-stable
 
-      - name: Manually Clone Kaggle Badges Action
-        run: |
-          git clone https://github.com/spider-man-tm/kaggle-badges.git kaggle-badges-action
-          cd kaggle-badges-action
-          npm install
-
-      - name: Use Kaggle Badges Action (With No-Sandbox)
+      - name: Run Kaggle Badges Action (With No-Sandbox)
         env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
           PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "false"
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &
           export DISPLAY=:99
-          export PUPPETEER_EXECUTABLE_PATH=$(node -e 'console.log(require("puppeteer").executablePath())')
-          export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=false
-          node kaggle-badges-action/index.js --user_name chenjungming --no-sandbox --disable-setuid-sandbox
+          npx spider-man-tm/kaggle-badges@v1.2.2 --user_name chenjungming --puppeteer-args "--no-sandbox --disable-setuid-sandbox"
 
       - name: Commit and Push SVG files
         run: |
