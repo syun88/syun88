@@ -1,4 +1,4 @@
-name: Kaggle Badges and GitHub Metrics
+name: Main
 
 on:
   push:
@@ -22,14 +22,21 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install Puppeteer browser
-        run: npx puppeteer browsers install chrome@126.0.6478.63
+      - name: Install Puppeteer manually
+        run: |
+          npm install -g puppeteer
+          echo "PUPPETEER_EXECUTABLE_PATH=$(which chromium-browser)" >> $GITHUB_ENV
 
       - name: Use Kaggle Badges Action (With No-Sandbox Fix)
-        uses: spider-man-tm/kaggle-badges@v1.2.2
-        with:
-          user_name: chenjungming
-          puppeteer_args: "--no-sandbox --disable-setuid-sandbox"
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: "true"
+          PUPPETEER_EXECUTABLE_PATH: "/usr/bin/google-chrome-stable"
+        run: |
+          npx puppeteer browsers install chrome
+          node -e "console.log('Checking Puppeteer Version:', require('puppeteer').version)"
+          Xvfb :99 -screen 0 1920x1080x24 &
+          export DISPLAY=:99
+          npx spider-man-tm/kaggle-badges@v1.2.2 --user_name chenjungming
 
       - name: Commit and Push SVG files
         run: |
