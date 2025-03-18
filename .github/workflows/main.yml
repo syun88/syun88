@@ -1,4 +1,4 @@
-name: Kaggle Badges and GitHub Metrics
+name: Main
 
 on:
   push:
