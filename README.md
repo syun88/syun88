@@ -30,26 +30,39 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 - 🏅 **[NVIDIA Jetson AI Specialist](https://github.com/syun88/syun88/blob/main/NVIDIA-Jetson-AI-Specialist-Certificate-Jung-Ming-Chen.pdf)**  
 
 
+
+
 ## 🏆 Kaggle Achievements | Kaggleでの実績
+
 - 🥇 **Competition Expert**  
 - 📊 **Notebook Master**  
 - 📈 **Dataset Contributor**  
 - 🔍 **Active Competitor**
 
+### **ローカルSVG (Markdown)**
+![](./kaggle-badges/CompetitionsRank/plastic-black.svg)
+![](./kaggle-plates/Competitions/white.svg)
+
+### **ローカルSVG (HTML)**
+<img src="./kaggle-badges/CompetitionsRank/plastic-black.svg" />
+<img src="./kaggle-plates/Competitions/white.svg" />
+
+### **動的バッジ (外部API)**
 <p align="center">
   <a href="https://www.kaggle.com/chenjungming">
-    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/competition" alt="Kaggle Competition Badge" />
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/chenjungming/competition" alt="Kaggle Competition Badge" />
   </a>
   <a href="https://www.kaggle.com/chenjungming">
-    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/notebook" alt="Kaggle Notebook Badge" />
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/chenjungming/notebook" alt="Kaggle Notebook Badge" />
   </a>
   <a href="https://www.kaggle.com/chenjungming">
-    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/dataset" alt="Kaggle Dataset Badge" />
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/chenjungming/dataset" alt="Kaggle Dataset Badge" />
   </a>
   <a href="https://www.kaggle.com/chenjungming">
-    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/syun88/discussion" alt="Kaggle Discussion Badge" />
+    <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/chenjungming/discussion" alt="Kaggle Discussion Badge" />
   </a>
 </p>
+
 
 ---
 
