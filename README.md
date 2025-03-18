@@ -32,6 +32,8 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 
 
 
+
+
 ## 🏆 Kaggle Achievements | Kaggleでの実績
 
 - 🥇 **Competition Expert**  
@@ -62,7 +64,6 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
     <img src="https://road-to-kaggle-grandmaster.vercel.app/api/badges/chenjungming/discussion" alt="Kaggle Discussion Badge" />
   </a>
 </p>
-
 
 ---
 
