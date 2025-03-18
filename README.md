@@ -30,6 +30,7 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 - 🏅 **[NVIDIA Jetson AI Specialist](https://github.com/syun88/syun88/blob/main/NVIDIA-Jetson-AI-Specialist-Certificate-Jung-Ming-Chen.pdf)**  
 
 ## 🏆 Kaggle Achievements | Kaggleでの実績
+- まだ初心者です！
 - My Kaggke URL | Kaggleでのリンク https://www.kaggle.com/chenjungming
 
 <img src="./kaggle-badges/CompetitionsRank/plastic-black.svg" />
@@ -37,19 +38,17 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 
 ---
 
-## 🌐 Find me on | 他のプラットフォーム
+## 🌐 Find me on SNS |　他のSNS情報
 - 🐙 **GitHub**: [syun88](https://github.com/syun88)  
 - 📝 **Qiita**: [syun88](https://qiita.com/syun88)  
 - 🐦 **X (Twitter)**: [@syun88AI](https://x.com/syun88AI)  
-
+- linkedin **linkedin**: [CHENJUNGMING](https://www.linkedin.com/in/jungming-chen-733703354/)
 ---
 
 ## 📈 GitHub Stats | GitHub統計
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=syun88&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Top Langs" />
-</p>
 
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=syun88&show_icons=true&locale=en&theme=chartreuse-dark" alt="GitHub Stats" width="410" />
 </p>
 
@@ -78,5 +77,5 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 
 ---
 
-### 🔥 Let's Connect!  
+### よろしくお願いします  
 興味のある方はぜひフォロー＆DMしてください！技術について語り合いましょう！🚀  
