@@ -47,9 +47,9 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 
 ## 📈 GitHub Stats | GitHub統計
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=syun88&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Top Langs" />
+  <img src="https://github-readme-stats-chi-azure-54.vercel.app/api/top-langs?username=syun88&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="Top Langs" />
 
-  <img src="https://github-readme-stats.vercel.app/api?username=syun88&show_icons=true&locale=en&theme=chartreuse-dark" alt="GitHub Stats" width="410" />
+  <img src="https://github-readme-stats-chi-azure-54.vercel.app/api?username=syun88&show_icons=true&locale=en&theme=chartreuse-dark" alt="GitHub Stats" width="410" />
 </p>
 
 <p align="center">
