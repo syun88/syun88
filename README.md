@@ -56,6 +56,9 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
   <img src="https://github-profile-trophy.vercel.app/?username=syun88&theme=juicyfresh&no-bg=true" />
 </p>
 
+![profile geaph](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syun88&theme=2077)
+![commits](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=syun88&&theme=2077&utcOffset=8)
+
 ---
 
 ## 📌 Profile & Contributions
