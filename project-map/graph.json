@@ -1,0 +1,913 @@
+{
+  "owner": "syun88",
+  "generatedAt": "2026-08-18T07:47:50.188Z",
+  "repositoryCount": 38,
+  "groupCount": 9,
+  "nodes": [
+    {
+      "id": "user:syun88",
+      "label": "syun88",
+      "type": "owner",
+      "url": "https://github.com/syun88"
+    },
+    {
+      "id": "group:lang-other",
+      "label": "Other Projects",
+      "type": "group",
+      "repositoryCount": 12
+    },
+    {
+      "id": "repository:syun88",
+      "label": "syun88",
+      "type": "repository",
+      "url": "https://github.com/syun88/syun88",
+      "description": "",
+      "language": null,
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-18T07:36:04Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:cosmos-policy",
+      "label": "cosmos-policy",
+      "type": "repository",
+      "url": "https://github.com/syun88/cosmos-policy",
+      "description": "Cosmos Policy-for-dual-scorpion",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-03-20T01:18:18Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:WorldWarp",
+      "label": "WorldWarp",
+      "type": "repository",
+      "url": "https://github.com/syun88/WorldWarp",
+      "description": "Long-range camera-conditioned scene generation from one single image.",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-24T15:49:33Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:pixio",
+      "label": "pixio",
+      "type": "repository",
+      "url": "https://github.com/syun88/pixio",
+      "description": "Pixio: a SSL encoder dedicated to dense CV tasks",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-22T06:51:34Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:map-anything",
+      "label": "map-anything",
+      "type": "repository",
+      "url": "https://github.com/syun88/map-anything",
+      "description": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-18T10:48:48Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:Depth-Anything-3",
+      "label": "Depth-Anything-3",
+      "type": "repository",
+      "url": "https://github.com/syun88/Depth-Anything-3",
+      "description": "Depth Anything 3",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-16T11:47:44Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:relsim",
+      "label": "relsim",
+      "type": "repository",
+      "url": "https://github.com/syun88/relsim",
+      "description": "🍑 relsim: Relational Visual Similarity | pip install relsim 🌍",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-15T13:35:19Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:ml-sharp",
+      "label": "ml-sharp",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-sharp",
+      "description": "Sharp Monocular View Synthesis in Less Than a Second",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-13T20:23:52Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:circuit_sparsity",
+      "label": "circuit_sparsity",
+      "type": "repository",
+      "url": "https://github.com/syun88/circuit_sparsity",
+      "description": "Open-source release accompanying Gao et al. 2025",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-12T05:16:28Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:github-profile-trophy",
+      "label": "github-profile-trophy",
+      "type": "repository",
+      "url": "https://github.com/syun88/github-profile-trophy",
+      "description": "🏆 Add dynamically generated GitHub Stat Trophies  on your readme",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-10T06:35:08Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:NewBie-image-Exp0.1",
+      "label": "NewBie-image-Exp0.1",
+      "type": "repository",
+      "url": "https://github.com/syun88/NewBie-image-Exp0.1",
+      "description": "",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-07T15:08:00Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:github-readme-stats",
+      "label": "github-readme-stats",
+      "type": "repository",
+      "url": "https://github.com/syun88/github-readme-stats",
+      "description": ":zap: Dynamically generated stats for your github readmes",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-07T10:44:26Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "group:lang-python",
+      "label": "Python Projects",
+      "type": "group",
+      "repositoryCount": 10
+    },
+    {
+      "id": "repository:NemoClaw2Robot",
+      "label": "NemoClaw2Robot",
+      "type": "repository",
+      "url": "https://github.com/syun88/NemoClaw2Robot",
+      "description": "NemoClaw2Robot",
+      "language": "Python",
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-15T16:15:18Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:aimv2-project-for-qiita-article",
+      "label": "aimv2-project-for-qiita-article",
+      "type": "repository",
+      "url": "https://github.com/syun88/aimv2-project-for-qiita-article",
+      "description": "Apple/aimv2 for-qiita-article",
+      "language": "Python",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-09-24T06:26:41Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:DepthLM_Official",
+      "label": "DepthLM_Official",
+      "type": "repository",
+      "url": "https://github.com/syun88/DepthLM_Official",
+      "description": "Official implementation of DepthLM",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-01-30T06:09:00Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:ml-simplefold",
+      "label": "ml-simplefold",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-simplefold",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-01-06T10:58:01Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:ml-starflow",
+      "label": "ml-starflow",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-starflow",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-04T10:27:07Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:ml-l3m",
+      "label": "ml-l3m",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-l3m",
+      "description": "Large multi-modal models (L3M) pre-training.",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-04T00:47:46Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:DA-2",
+      "label": "DA-2",
+      "type": "repository",
+      "url": "https://github.com/syun88/DA-2",
+      "description": "Official Implementation of DA^2: Depth Anything in Any Direction_add_Mac",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-10-06T05:05:15Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:check_color_count",
+      "label": "check_color_count",
+      "type": "repository",
+      "url": "https://github.com/syun88/check_color_count",
+      "description": "check_color_count",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-06-04T08:51:00Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:four_conect_game_handAI",
+      "label": "four_conect_game_handAI",
+      "type": "repository",
+      "url": "https://github.com/syun88/four_conect_game_handAI",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2024-11-21T07:12:42Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:Get_distance_MiDaS_python",
+      "label": "Get_distance_MiDaS_python",
+      "type": "repository",
+      "url": "https://github.com/syun88/Get_distance_MiDaS_python",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2023-06-21T05:18:16Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "group:ai-ml",
+      "label": "AI / Machine Learning",
+      "type": "group",
+      "repositoryCount": 6
+    },
+    {
+      "id": "repository:VLA-from-FastVLM",
+      "label": "VLA-from-FastVLM",
+      "type": "repository",
+      "url": "https://github.com/syun88/VLA-from-FastVLM",
+      "description": "This repository builds a new Vision-Language-Action (VLA) framework using Apple’s FastVLM as the vision-language backbone, with an Action Expert module for robot control.",
+      "language": "Python",
+      "topics": [],
+      "stars": 12,
+      "forks": 1,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-06-04T00:28:22Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:G2VLM",
+      "label": "G2VLM",
+      "type": "repository",
+      "url": "https://github.com/syun88/G2VLM",
+      "description": "[CVPR 2026] G2VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-02-22T11:04:59Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:axlearn",
+      "label": "axlearn",
+      "type": "repository",
+      "url": "https://github.com/syun88/axlearn",
+      "description": "An Extensible Deep Learning Library",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-01-10T08:22:36Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:ai-tutor",
+      "label": "ai-tutor",
+      "type": "repository",
+      "url": "https://github.com/syun88/ai-tutor",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-10T12:02:16Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:AI_PJ_GANE_FRI_WORK",
+      "label": "AI_PJ_GANE_FRI_WORK",
+      "type": "repository",
+      "url": "https://github.com/syun88/AI_PJ_GANE_FRI_WORK",
+      "description": "AIプロジェクト演習",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 3,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-11-21T05:19:13Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:TechLibrary",
+      "label": "TechLibrary",
+      "type": "repository",
+      "url": "https://github.com/syun88/TechLibrary",
+      "description": "電気電子、プログラミング、パソコン、AI、IoT、基礎から学ぶ技術サイト。A technology site that teaches the basics of electrical engineering, programming, computers, AI, IoT, etc.",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2024-12-06T08:50:34Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "group:robotics",
+      "label": "Robotics / ROS 2",
+      "type": "group",
+      "repositoryCount": 4
+    },
+    {
+      "id": "repository:lerobot_6dof_arm",
+      "label": "lerobot_6dof_arm",
+      "type": "repository",
+      "url": "https://github.com/syun88/lerobot_6dof_arm",
+      "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning (6dof_arm recreate by syun)",
+      "language": "Python",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-08-04T19:08:55Z",
+      "groupId": "robotics",
+      "groupLabel": "Robotics / ROS 2"
+    },
+    {
+      "id": "repository:lerobot_pj",
+      "label": "lerobot_pj",
+      "type": "repository",
+      "url": "https://github.com/syun88/lerobot_pj",
+      "description": "lerobot_pj_ros2_humble",
+      "language": "Python",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-06-21T08:03:46Z",
+      "groupId": "robotics",
+      "groupLabel": "Robotics / ROS 2"
+    },
+    {
+      "id": "repository:lerobot-hdf5-bridge",
+      "label": "lerobot-hdf5-bridge",
+      "type": "repository",
+      "url": "https://github.com/syun88/lerobot-hdf5-bridge",
+      "description": "robot-dataset-io",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-05-09T04:42:01Z",
+      "groupId": "robotics",
+      "groupLabel": "Robotics / ROS 2"
+    },
+    {
+      "id": "repository:fusion2urdf-ros2-gz",
+      "label": "fusion2urdf-ros2-gz",
+      "type": "repository",
+      "url": "https://github.com/syun88/fusion2urdf-ros2-gz",
+      "description": "A Fusion 360 script to export URDF for ROS 2, designed for the post–Gazebo Classic EOL era (Gazebo “gz” / Ignition-ready).",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-20T17:30:29Z",
+      "groupId": "robotics",
+      "groupLabel": "Robotics / ROS 2"
+    },
+    {
+      "id": "group:lang-c-u2b-u2b",
+      "label": "C++ Projects",
+      "type": "group",
+      "repositoryCount": 2
+    },
+    {
+      "id": "repository:IsaacMetalBridge",
+      "label": "IsaacMetalBridge",
+      "type": "repository",
+      "url": "https://github.com/syun88/IsaacMetalBridge",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "stars": 3,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-11T08:36:46Z",
+      "groupId": "lang-c-u2b-u2b",
+      "groupLabel": "C++ Projects"
+    },
+    {
+      "id": "repository:mlx",
+      "label": "mlx",
+      "type": "repository",
+      "url": "https://github.com/syun88/mlx",
+      "description": "MLX: An array framework for Apple silicon",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-03-08T04:41:19Z",
+      "groupId": "lang-c-u2b-u2b",
+      "groupLabel": "C++ Projects"
+    },
+    {
+      "id": "group:coursework",
+      "label": "Coursework / Learning",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:ROS2_gmapping_learning_python",
+      "label": "ROS2_gmapping_learning_python",
+      "type": "repository",
+      "url": "https://github.com/syun88/ROS2_gmapping_learning_python",
+      "description": "not use rviz2 to show map and base_link .etc learning project use python",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-06-04T08:27:52Z",
+      "groupId": "coursework",
+      "groupLabel": "Coursework / Learning"
+    },
+    {
+      "id": "group:hardware",
+      "label": "Hardware / Embedded",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:baumbu_printer_Raspberry_DiscordBot",
+      "label": "baumbu_printer_Raspberry_DiscordBot",
+      "type": "repository",
+      "url": "https://github.com/syun88/baumbu_printer_Raspberry_DiscordBot",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2025-12-12T04:59:02Z",
+      "groupId": "hardware",
+      "groupLabel": "Hardware / Embedded"
+    },
+    {
+      "id": "group:lang-javascript",
+      "label": "JavaScript Projects",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:learn_english",
+      "label": "learn_english",
+      "type": "repository",
+      "url": "https://github.com/syun88/learn_english",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-18T04:33:20Z",
+      "groupId": "lang-javascript",
+      "groupLabel": "JavaScript Projects"
+    },
+    {
+      "id": "group:minecraft",
+      "label": "Minecraft Modding",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:minecraft_ros2",
+      "label": "minecraft_ros2",
+      "type": "repository",
+      "url": "https://github.com/syun88/minecraft_ros2",
+      "description": "ros2 minecraft mod",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2025-12-19T03:49:08Z",
+      "groupId": "minecraft",
+      "groupLabel": "Minecraft Modding"
+    }
+  ],
+  "edges": [
+    {
+      "source": "user:syun88",
+      "target": "group:lang-other",
+      "type": "ownership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:syun88",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:cosmos-policy",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:WorldWarp",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:pixio",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:map-anything",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:Depth-Anything-3",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:relsim",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:ml-sharp",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:circuit_sparsity",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:github-profile-trophy",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:NewBie-image-Exp0.1",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:github-readme-stats",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:lang-python",
+      "type": "ownership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:NemoClaw2Robot",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:aimv2-project-for-qiita-article",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:DepthLM_Official",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:ml-simplefold",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:ml-starflow",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:ml-l3m",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:DA-2",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:check_color_count",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:four_conect_game_handAI",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:Get_distance_MiDaS_python",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:ai-ml",
+      "type": "ownership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:VLA-from-FastVLM",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:G2VLM",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:axlearn",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:ai-tutor",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:AI_PJ_GANE_FRI_WORK",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:TechLibrary",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:robotics",
+      "type": "ownership"
+    },
+    {
+      "source": "group:robotics",
+      "target": "repository:lerobot_6dof_arm",
+      "type": "membership"
+    },
+    {
+      "source": "group:robotics",
+      "target": "repository:lerobot_pj",
+      "type": "membership"
+    },
+    {
+      "source": "group:robotics",
+      "target": "repository:lerobot-hdf5-bridge",
+      "type": "membership"
+    },
+    {
+      "source": "group:robotics",
+      "target": "repository:fusion2urdf-ros2-gz",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:lang-c-u2b-u2b",
+      "type": "ownership"
+    },
+    {
+      "source": "group:lang-c-u2b-u2b",
+      "target": "repository:IsaacMetalBridge",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-c-u2b-u2b",
+      "target": "repository:mlx",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:coursework",
+      "type": "ownership"
+    },
+    {
+      "source": "group:coursework",
+      "target": "repository:ROS2_gmapping_learning_python",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:hardware",
+      "type": "ownership"
+    },
+    {
+      "source": "group:hardware",
+      "target": "repository:baumbu_printer_Raspberry_DiscordBot",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:lang-javascript",
+      "type": "ownership"
+    },
+    {
+      "source": "group:lang-javascript",
+      "target": "repository:learn_english",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:minecraft",
+      "type": "ownership"
+    },
+    {
+      "source": "group:minecraft",
+      "target": "repository:minecraft_ros2",
+      "type": "membership"
+    }
+  ]
+}
