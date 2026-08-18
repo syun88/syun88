@@ -59,6 +59,13 @@ ROS2を活用したロボット開発や、Unityによるゲーム制作、そ�
 ![profile geaph](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syun88&theme=2077)
 ![commits](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=syun88&&theme=2077&utcOffset=8)
 
+
+<p align="center">
+  <a href="https://nekomario28.github.io/interactive-project-map/u/?username=syun88">
+    <img width="740" src="https://raw.githubusercontent.com/syun88/syun88/HEAD/project-map/galaxy.svg" alt="syun88 project galaxy" />
+  </a>
+</p>
+
 ---
 
 ## 📌 Profile & Contributions
