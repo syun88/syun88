@@ -1,6 +1,6 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-08-20T04:10:26.707Z",
+  "generatedAt": "2026-08-21T04:11:27.920Z",
   "repositoryCount": 38,
   "groupCount": 9,
   "nodes": [
@@ -28,7 +28,7 @@
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-08-20T01:24:54Z",
+      "updatedAt": "2026-08-21T01:35:07Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -215,6 +215,22 @@
       "repositoryCount": 10
     },
     {
+      "id": "repository:aimv2-project-for-qiita-article",
+      "label": "aimv2-project-for-qiita-article",
+      "type": "repository",
+      "url": "https://github.com/syun88/aimv2-project-for-qiita-article",
+      "description": "Apple/aimv2 for-qiita-article",
+      "language": "Python",
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-08-20T13:55:33Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
       "id": "repository:NemoClaw2Robot",
       "label": "NemoClaw2Robot",
       "type": "repository",
@@ -227,22 +243,6 @@
       "fork": false,
       "archived": false,
       "updatedAt": "2026-06-15T16:15:18Z",
-      "groupId": "lang-python",
-      "groupLabel": "Python Projects"
-    },
-    {
-      "id": "repository:aimv2-project-for-qiita-article",
-      "label": "aimv2-project-for-qiita-article",
-      "type": "repository",
-      "url": "https://github.com/syun88/aimv2-project-for-qiita-article",
-      "description": "Apple/aimv2 for-qiita-article",
-      "language": "Python",
-      "topics": [],
-      "stars": 1,
-      "forks": 0,
-      "fork": false,
-      "archived": false,
-      "updatedAt": "2025-09-24T06:26:41Z",
       "groupId": "lang-python",
       "groupLabel": "Python Projects"
     },
@@ -560,11 +560,11 @@
       "description": "",
       "language": "C++",
       "topics": [],
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-08-11T08:36:46Z",
+      "updatedAt": "2026-08-20T13:53:45Z",
       "groupId": "lang-c-u2b-u2b",
       "groupLabel": "C++ Projects"
     },
@@ -746,12 +746,12 @@
     },
     {
       "source": "group:lang-python",
-      "target": "repository:NemoClaw2Robot",
+      "target": "repository:aimv2-project-for-qiita-article",
       "type": "membership"
     },
     {
       "source": "group:lang-python",
-      "target": "repository:aimv2-project-for-qiita-article",
+      "target": "repository:NemoClaw2Robot",
       "type": "membership"
     },
     {
