@@ -1,8 +1,8 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-09-05T07:50:07.604Z",
-  "repositoryCount": 38,
-  "groupCount": 9,
+  "generatedAt": "2026-09-06T08:05:12.049Z",
+  "repositoryCount": 39,
+  "groupCount": 10,
   "nodes": [
     {
       "id": "user:syun88",
@@ -28,7 +28,7 @@
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-09-05T03:41:52Z",
+      "updatedAt": "2026-09-06T03:44:12Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -671,6 +671,28 @@
       "updatedAt": "2025-12-19T03:49:08Z",
       "groupId": "minecraft",
       "groupLabel": "Minecraft Modding"
+    },
+    {
+      "id": "group:lang-swift",
+      "label": "Swift Projects",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:watashi-no-karada",
+      "label": "watashi-no-karada",
+      "type": "repository",
+      "url": "https://github.com/syun88/watashi-no-karada",
+      "description": "",
+      "language": "Swift",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-09-06T08:04:08Z",
+      "groupId": "lang-swift",
+      "groupLabel": "Swift Projects"
     }
   ],
   "edges": [
@@ -907,6 +929,16 @@
     {
       "source": "group:minecraft",
       "target": "repository:minecraft_ros2",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:lang-swift",
+      "type": "ownership"
+    },
+    {
+      "source": "group:lang-swift",
+      "target": "repository:watashi-no-karada",
       "type": "membership"
     }
   ]
