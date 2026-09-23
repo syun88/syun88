@@ -1,7 +1,7 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-09-22T08:46:12.553Z",
-  "repositoryCount": 39,
+  "generatedAt": "2026-09-23T08:47:45.546Z",
+  "repositoryCount": 40,
   "groupCount": 10,
   "nodes": [
     {
@@ -28,7 +28,7 @@
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-09-22T04:04:16Z",
+      "updatedAt": "2026-09-23T04:01:13Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -212,7 +212,7 @@
       "id": "group:lang-python",
       "label": "Python Projects",
       "type": "group",
-      "repositoryCount": 10
+      "repositoryCount": 11
     },
     {
       "id": "repository:aimv2-project-for-qiita-article",
@@ -243,6 +243,22 @@
       "fork": false,
       "archived": false,
       "updatedAt": "2026-06-15T16:15:18Z",
+      "groupId": "lang-python",
+      "groupLabel": "Python Projects"
+    },
+    {
+      "id": "repository:ml-lensvlm-jev-style",
+      "label": "ml-lensvlm-jev-style",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-lensvlm-jev-style",
+      "description": "Official code for LensVLM: Selective Context Expansion for Compressed Visual Representation of Text. try jev style",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-09-22T23:26:00Z",
       "groupId": "lang-python",
       "groupLabel": "Python Projects"
     },
@@ -774,6 +790,11 @@
     {
       "source": "group:lang-python",
       "target": "repository:NemoClaw2Robot",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-python",
+      "target": "repository:ml-lensvlm-jev-style",
       "type": "membership"
     },
     {
