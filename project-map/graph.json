@@ -1,6 +1,6 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-10-23T03:48:42.821Z",
+  "generatedAt": "2026-10-24T03:46:21.475Z",
   "repositoryCount": 42,
   "groupCount": 10,
   "nodes": [
@@ -28,7 +28,7 @@
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-10-23T00:45:53Z",
+      "updatedAt": "2026-10-24T00:43:36Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -436,11 +436,11 @@
       "description": "Embodied AI Agent ",
       "language": "Python",
       "topics": [],
-      "stars": 1,
+      "stars": 3,
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-10-22T11:55:44Z",
+      "updatedAt": "2026-10-23T16:32:55Z",
       "groupId": "ai-ml",
       "groupLabel": "AI / Machine Learning"
     },
