@@ -1,7 +1,7 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-11-01T03:38:12.648Z",
-  "repositoryCount": 42,
+  "generatedAt": "2026-11-02T11:36:48.789Z",
+  "repositoryCount": 43,
   "groupCount": 10,
   "nodes": [
     {
@@ -14,7 +14,7 @@
       "id": "group:lang-other",
       "label": "Other Projects",
       "type": "group",
-      "repositoryCount": 12
+      "repositoryCount": 13
     },
     {
       "id": "repository:syun88",
@@ -28,7 +28,23 @@
       "forks": 0,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-11-01T00:32:23Z",
+      "updatedAt": "2026-11-02T05:15:14Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:motionbricks",
+      "label": "motionbricks",
+      "type": "repository",
+      "url": "https://github.com/syun88/motionbricks",
+      "description": "Official implementation of MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives (SIGGRAPH 2026)",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-11-02T07:40:38Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -424,7 +440,7 @@
       "forks": 1,
       "fork": false,
       "archived": false,
-      "updatedAt": "2026-06-04T00:28:22Z",
+      "updatedAt": "2026-11-01T05:48:37Z",
       "groupId": "ai-ml",
       "groupLabel": "AI / Machine Learning"
     },
@@ -752,6 +768,11 @@
     {
       "source": "group:lang-other",
       "target": "repository:syun88",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:motionbricks",
       "type": "membership"
     },
     {
