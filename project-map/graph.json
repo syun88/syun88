@@ -1,7 +1,7 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-11-13T03:38:04.362Z",
-  "repositoryCount": 44,
+  "generatedAt": "2026-11-14T03:37:54.370Z",
+  "repositoryCount": 45,
   "groupCount": 10,
   "nodes": [
     {
@@ -14,7 +14,7 @@
       "id": "group:lang-other",
       "label": "Other Projects",
       "type": "group",
-      "repositoryCount": 13
+      "repositoryCount": 14
     },
     {
       "id": "repository:syun88",
@@ -29,6 +29,22 @@
       "fork": false,
       "archived": false,
       "updatedAt": "2026-11-12T03:38:25Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:faiss",
+      "label": "faiss",
+      "type": "repository",
+      "url": "https://github.com/syun88/faiss",
+      "description": "A library for efficient similarity search and clustering of dense vectors.",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-11-13T15:30:53Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -784,6 +800,11 @@
     {
       "source": "group:lang-other",
       "target": "repository:syun88",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:faiss",
       "type": "membership"
     },
     {
