@@ -1,7 +1,7 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-11-15T03:38:20.637Z",
-  "repositoryCount": 46,
+  "generatedAt": "2026-11-19T03:38:05.765Z",
+  "repositoryCount": 47,
   "groupCount": 11,
   "nodes": [
     {
@@ -442,7 +442,7 @@
       "id": "group:ai-ml",
       "label": "AI / Machine Learning",
       "type": "group",
-      "repositoryCount": 8
+      "repositoryCount": 9
     },
     {
       "id": "repository:VLA-from-FastVLM",
@@ -473,6 +473,22 @@
       "fork": false,
       "archived": false,
       "updatedAt": "2026-10-25T00:24:54Z",
+      "groupId": "ai-ml",
+      "groupLabel": "AI / Machine Learning"
+    },
+    {
+      "id": "repository:AI-Challenge-earth-quake",
+      "label": "AI-Challenge-earth-quake",
+      "type": "repository",
+      "url": "https://github.com/syun88/AI-Challenge-earth-quake",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 2,
+      "forks": 0,
+      "fork": false,
+      "archived": false,
+      "updatedAt": "2026-11-19T01:09:00Z",
       "groupId": "ai-ml",
       "groupLabel": "AI / Machine Learning"
     },
@@ -967,6 +983,11 @@
     {
       "source": "group:ai-ml",
       "target": "repository:Sim-Agent",
+      "type": "membership"
+    },
+    {
+      "source": "group:ai-ml",
+      "target": "repository:AI-Challenge-earth-quake",
       "type": "membership"
     },
     {
