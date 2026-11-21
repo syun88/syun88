@@ -1,7 +1,7 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-11-19T03:38:05.765Z",
-  "repositoryCount": 47,
+  "generatedAt": "2026-11-21T03:38:11.772Z",
+  "repositoryCount": 48,
   "groupCount": 11,
   "nodes": [
     {
@@ -14,7 +14,7 @@
       "id": "group:lang-other",
       "label": "Other Projects",
       "type": "group",
-      "repositoryCount": 14
+      "repositoryCount": 15
     },
     {
       "id": "repository:syun88",
@@ -29,6 +29,22 @@
       "fork": false,
       "archived": false,
       "updatedAt": "2026-11-12T03:38:25Z",
+      "groupId": "lang-other",
+      "groupLabel": "Other Projects"
+    },
+    {
+      "id": "repository:ml-fastframes",
+      "label": "ml-fastframes",
+      "type": "repository",
+      "url": "https://github.com/syun88/ml-fastframes",
+      "description": "FastFrames: Video Generation at Interactive Latency",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-11-20T22:35:36Z",
       "groupId": "lang-other",
       "groupLabel": "Other Projects"
     },
@@ -838,6 +854,11 @@
     {
       "source": "group:lang-other",
       "target": "repository:syun88",
+      "type": "membership"
+    },
+    {
+      "source": "group:lang-other",
+      "target": "repository:ml-fastframes",
       "type": "membership"
     },
     {
