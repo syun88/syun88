@@ -1,8 +1,8 @@
 {
   "owner": "syun88",
-  "generatedAt": "2026-11-21T03:38:11.772Z",
-  "repositoryCount": 48,
-  "groupCount": 11,
+  "generatedAt": "2026-11-26T03:38:13.757Z",
+  "repositoryCount": 49,
+  "groupCount": 12,
   "nodes": [
     {
       "id": "user:syun88",
@@ -843,6 +843,28 @@
       "updatedAt": "2026-09-06T08:32:36Z",
       "groupId": "lang-swift",
       "groupLabel": "Swift Projects"
+    },
+    {
+      "id": "group:web-apps",
+      "label": "Web / Apps",
+      "type": "group",
+      "repositoryCount": 1
+    },
+    {
+      "id": "repository:leLab",
+      "label": "leLab",
+      "type": "repository",
+      "url": "https://github.com/syun88/leLab",
+      "description": "🤗 LeLab: A web UI interface on top of LeRobot",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "fork": true,
+      "archived": false,
+      "updatedAt": "2026-11-26T03:02:52Z",
+      "groupId": "web-apps",
+      "groupLabel": "Web / Apps"
     }
   ],
   "edges": [
@@ -1139,6 +1161,16 @@
     {
       "source": "group:lang-swift",
       "target": "repository:watashi-no-karada",
+      "type": "membership"
+    },
+    {
+      "source": "user:syun88",
+      "target": "group:web-apps",
+      "type": "ownership"
+    },
+    {
+      "source": "group:web-apps",
+      "target": "repository:leLab",
       "type": "membership"
     }
   ]
